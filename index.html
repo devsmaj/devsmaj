@@ -11,7 +11,7 @@
     // Suppress Tailwind CDN warning
     if (typeof console !== 'undefined' && console.warn) {
       const originalWarn = console.warn;
-      console.warn = function(...args) {
+      console.warn = function (...args) {
         if (args[0] && typeof args[0] === 'string' && args[0].includes('tailwindcss.com')) {
           return; // Suppress Tailwind CDN warning
         }
@@ -27,7 +27,9 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Fira+Code:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style.css">
@@ -135,10 +137,13 @@
 
           <div class="hero-title">
             <span class="title-prefix">//</span>
-            <span class="title-text" data-text-en="Full Stack Developer & UI/UX Designer" data-text-ar="مطور Full Stack & مصمم UI/UX">Full Stack Developer & UI/UX Designer</span>
+            <span class="title-text" data-text-en="Full Stack Developer & UI/UX Designer"
+              data-text-ar="مطور Full Stack & مصمم UI/UX">Full Stack Developer & UI/UX Designer</span>
           </div>
 
-          <p class="hero-description" data-text-en="Passionate developer creating exceptional digital experiences with modern technologies." data-text-ar="مطور شغوف بإنشاء تجارب رقمية استثنائية باستخدام التقنيات الحديثة.">
+          <p class="hero-description"
+            data-text-en="Passionate developer creating exceptional digital experiences with modern technologies."
+            data-text-ar="مطور شغوف بإنشاء تجارب رقمية استثنائية باستخدام التقنيات الحديثة.">
             Passionate developer creating exceptional digital experiences with modern technologies.
           </p>
 
@@ -154,16 +159,20 @@
           </div>
 
           <div class="hero-social">
-            <a href="https://github.com/devsmaj" class="social-icon" title="GitHub" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/devsmaj" class="social-icon" title="GitHub" target="_blank"
+              rel="noopener noreferrer">
               <i class="fab fa-github"></i>
             </a>
-            <a href="https://www.reddit.com/user/devsmaj" class="social-icon" title="Reddit" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.reddit.com/user/devsmaj" class="social-icon" title="Reddit" target="_blank"
+              rel="noopener noreferrer">
               <i class="fab fa-reddit-alien"></i>
             </a>
-            <a href="https://discord.com/users/devsmaj" class="social-icon" title="Discord" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.com/users/devsmaj" class="social-icon" title="Discord" target="_blank"
+              rel="noopener noreferrer">
               <i class="fab fa-discord"></i>
             </a>
-            <a href="https://t.me/devsmaj" class="social-icon" title="Telegram" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/devsmaj" class="social-icon" title="Telegram" target="_blank"
+              rel="noopener noreferrer">
               <i class="fab fa-telegram"></i>
             </a>
             <a href="mailto:officialsmaj@gmail.com" class="social-icon" title="Email">
@@ -230,8 +239,12 @@
         <div class="about-content">
           <div class="about-text-wrapper">
             <div class="about-intro">
-              <p class="about-text" data-text-en="I'm a passionate Full Stack Developer with over 5 years of experience in building modern web applications and mobile solutions. I specialize in JavaScript technologies, React, Node.js, and creating beautiful user interfaces, with a strong foundation in C, Python, SQL, algorithms, and data structures." data-text-ar="أنا مطور Full Stack شغوف مع أكثر من 5 سنوات من الخبرة في بناء تطبيقات الويب الحديثة والحلول الجوالة. أتخصص في تقنيات JavaScript، React، Node.js، وإنشاء واجهات مستخدم جميلة، مع أساس قوي في C وPython وSQL والخوارزميات وهياكل البيانات.">
-                I'm a passionate Full Stack Developer with over 5 years of experience in building modern web applications and mobile solutions. I specialize in JavaScript technologies, React, Node.js, and creating beautiful user interfaces, with a strong foundation in C, Python, SQL, algorithms, and data structures.
+              <p class="about-text"
+                data-text-en="I'm a passionate Full Stack Developer with over 5 years of experience in building modern web applications and mobile solutions. I specialize in JavaScript technologies, React, Node.js, and creating beautiful user interfaces, with a strong foundation in C, Python, SQL, algorithms, and data structures."
+                data-text-ar="أنا مطور Full Stack شغوف مع أكثر من 5 سنوات من الخبرة في بناء تطبيقات الويب الحديثة والحلول الجوالة. أتخصص في تقنيات JavaScript، React، Node.js، وإنشاء واجهات مستخدم جميلة، مع أساس قوي في C وPython وSQL والخوارزميات وهياكل البيانات.">
+                I'm a passionate Full Stack Developer with over 5 years of experience in building modern web
+                applications and mobile solutions. I specialize in JavaScript technologies, React, Node.js, and creating
+                beautiful user interfaces, with a strong foundation in C, Python, SQL, algorithms, and data structures.
               </p>
             </div>
 
@@ -539,30 +552,41 @@
                 <div class="timeline-year">2026 - Present</div>
                 <div class="timeline-badge">Current</div>
               </div>
-              <h3 class="timeline-title" data-text-en="Full Stack Developer" data-text-ar="مطور Full Stack">Full Stack Developer</h3>
+              <h3 class="timeline-title" data-text-en="Full Stack Developer" data-text-ar="مطور Full Stack">Full Stack
+                Developer</h3>
               <div class="timeline-company">
                 <i class="fas fa-building"></i>
                 Smaj Ecosystem
               </div>
-              <p class="timeline-description" data-text-en="Building SMAJ PI HUB, a full-stack Pi Platform application with a React/Vite frontend and an Express/MongoDB backend. Implementing Pi SDK authentication, backend token verification, payment approval, completion flows, and deployment-ready server architecture." data-text-ar="بناء SMAJ PI HUB، تطبيق Pi Platform كامل باستخدام واجهة React/Vite وخلفية Express/MongoDB. تنفيذ مصادقة Pi SDK، والتحقق من الرموز في الخلفية، وتدفقات الموافقة على المدفوعات وإكمالها، وبنية خادم جاهزة للنشر.">
-                Building SMAJ PI HUB, a full-stack Pi Platform application with a React/Vite frontend and an Express/MongoDB backend. Implementing Pi SDK authentication, backend token verification, payment approval, completion flows, and deployment-ready server architecture.
+              <p class="timeline-description"
+                data-text-en="Building SMAJ PI HUB, a full-stack Pi Platform application with a React/Vite frontend and an Express/MongoDB backend. Implementing Pi SDK authentication, backend token verification, payment approval, completion flows, and deployment-ready server architecture."
+                data-text-ar="بناء SMAJ PI HUB، تطبيق Pi Platform كامل باستخدام واجهة React/Vite وخلفية Express/MongoDB. تنفيذ مصادقة Pi SDK، والتحقق من الرموز في الخلفية، وتدفقات الموافقة على المدفوعات وإكمالها، وبنية خادم جاهزة للنشر.">
+                Building SMAJ PI HUB, a full-stack Pi Platform application with a React/Vite frontend and an
+                Express/MongoDB backend. Implementing Pi SDK authentication, backend token verification, payment
+                approval, completion flows, and deployment-ready server architecture.
               </p>
               <div class="timeline-achievements">
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Built React + TypeScript frontend for Pi app flows" data-text-ar="بناء واجهة React + TypeScript لتدفقات تطبيق Pi">Built React + TypeScript frontend for Pi app flows</span>
+                  <span data-text-en="Built React + TypeScript frontend for Pi app flows"
+                    data-text-ar="بناء واجهة React + TypeScript لتدفقات تطبيق Pi">Built React + TypeScript frontend for
+                    Pi app flows</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Developed Express + MongoDB backend API" data-text-ar="تطوير واجهة API خلفية باستخدام Express + MongoDB">Developed Express + MongoDB backend API</span>
+                  <span data-text-en="Developed Express + MongoDB backend API"
+                    data-text-ar="تطوير واجهة API خلفية باستخدام Express + MongoDB">Developed Express + MongoDB backend
+                    API</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Integrated Pi authentication and payment workflows" data-text-ar="دمج مصادقة Pi وتدفقات الدفع">Integrated Pi authentication and payment workflows</span>
+                  <span data-text-en="Integrated Pi authentication and payment workflows"
+                    data-text-ar="دمج مصادقة Pi وتدفقات الدفع">Integrated Pi authentication and payment workflows</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Prepared Docker-based deployment structure" data-text-ar="إعداد بنية نشر تعتمد على Docker">Prepared Docker-based deployment structure</span>
+                  <span data-text-en="Prepared Docker-based deployment structure"
+                    data-text-ar="إعداد بنية نشر تعتمد على Docker">Prepared Docker-based deployment structure</span>
                 </div>
               </div>
               <div class="timeline-tags">
@@ -583,26 +607,36 @@
               <div class="timeline-header">
                 <div class="timeline-year">2022 - 2024</div>
               </div>
-              <h3 class="timeline-title" data-text-en="Frontend Developer" data-text-ar="مطور واجهة أمامية">Frontend Developer</h3>
+              <h3 class="timeline-title" data-text-en="Frontend Developer" data-text-ar="مطور واجهة أمامية">Frontend
+                Developer</h3>
               <div class="timeline-company">
                 <i class="fas fa-building"></i>
                 Freelance / Personal Projects
               </div>
-              <p class="timeline-description" data-text-en="Developed responsive web interfaces using React and modern JavaScript. Focused on clean layouts, mobile-first design, performance, and reusable UI components." data-text-ar="تطوير واجهات ويب متجاوبة باستخدام React وJavaScript الحديثة. التركيز على التخطيطات النظيفة، والتصميم المتوافق مع الجوال، والأداء، ومكونات واجهة قابلة لإعادة الاستخدام.">
-                Developed responsive web interfaces using React and modern JavaScript. Focused on clean layouts, mobile-first design, performance, and reusable UI components.
+              <p class="timeline-description"
+                data-text-en="Developed responsive web interfaces using React and modern JavaScript. Focused on clean layouts, mobile-first design, performance, and reusable UI components."
+                data-text-ar="تطوير واجهات ويب متجاوبة باستخدام React وJavaScript الحديثة. التركيز على التخطيطات النظيفة، والتصميم المتوافق مع الجوال، والأداء، ومكونات واجهة قابلة لإعادة الاستخدام.">
+                Developed responsive web interfaces using React and modern JavaScript. Focused on clean layouts,
+                mobile-first design, performance, and reusable UI components.
               </p>
               <div class="timeline-achievements">
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Built responsive websites and portfolio interfaces" data-text-ar="بناء مواقع متجاوبة وواجهات بورتفوليو">Built responsive websites and portfolio interfaces</span>
+                  <span data-text-en="Built responsive websites and portfolio interfaces"
+                    data-text-ar="بناء مواقع متجاوبة وواجهات بورتفوليو">Built responsive websites and portfolio
+                    interfaces</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Improved mobile experience and page structure" data-text-ar="تحسين تجربة الجوال وهيكلة الصفحات">Improved mobile experience and page structure</span>
+                  <span data-text-en="Improved mobile experience and page structure"
+                    data-text-ar="تحسين تجربة الجوال وهيكلة الصفحات">Improved mobile experience and page
+                    structure</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Created reusable frontend components" data-text-ar="إنشاء مكونات واجهة أمامية قابلة لإعادة الاستخدام">Created reusable frontend components</span>
+                  <span data-text-en="Created reusable frontend components"
+                    data-text-ar="إنشاء مكونات واجهة أمامية قابلة لإعادة الاستخدام">Created reusable frontend
+                    components</span>
                 </div>
               </div>
               <div class="timeline-tags">
@@ -621,26 +655,34 @@
               <div class="timeline-header">
                 <div class="timeline-year">2021 - 2022</div>
               </div>
-              <h3 class="timeline-title" data-text-en="Junior Web Developer" data-text-ar="مطور ويب مبتدئ">Junior Web Developer</h3>
+              <h3 class="timeline-title" data-text-en="Junior Web Developer" data-text-ar="مطور ويب مبتدئ">Junior Web
+                Developer</h3>
               <div class="timeline-company">
                 <i class="fas fa-building"></i>
                 Learning / Practice Projects
               </div>
-              <p class="timeline-description" data-text-en="Built basic websites using HTML, CSS, and JavaScript while learning web development fundamentals. Practiced responsive layouts, page structure, styling, and simple interactive features." data-text-ar="بناء مواقع بسيطة باستخدام HTML وCSS وJavaScript أثناء تعلم أساسيات تطوير الويب. التدرب على التخطيطات المتجاوبة، وهيكلة الصفحات، والتنسيق، والميزات التفاعلية البسيطة.">
-                Built basic websites using HTML, CSS, and JavaScript while learning web development fundamentals. Practiced responsive layouts, page structure, styling, and simple interactive features.
+              <p class="timeline-description"
+                data-text-en="Built basic websites using HTML, CSS, and JavaScript while learning web development fundamentals. Practiced responsive layouts, page structure, styling, and simple interactive features."
+                data-text-ar="بناء مواقع بسيطة باستخدام HTML وCSS وJavaScript أثناء تعلم أساسيات تطوير الويب. التدرب على التخطيطات المتجاوبة، وهيكلة الصفحات، والتنسيق، والميزات التفاعلية البسيطة.">
+                Built basic websites using HTML, CSS, and JavaScript while learning web development fundamentals.
+                Practiced responsive layouts, page structure, styling, and simple interactive features.
               </p>
               <div class="timeline-achievements">
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Built static web pages with HTML and CSS" data-text-ar="بناء صفحات ويب ثابتة باستخدام HTML وCSS">Built static web pages with HTML and CSS</span>
+                  <span data-text-en="Built static web pages with HTML and CSS"
+                    data-text-ar="بناء صفحات ويب ثابتة باستخدام HTML وCSS">Built static web pages with HTML and
+                    CSS</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Practiced JavaScript DOM interactions" data-text-ar="التدرب على تفاعلات JavaScript مع DOM">Practiced JavaScript DOM interactions</span>
+                  <span data-text-en="Practiced JavaScript DOM interactions"
+                    data-text-ar="التدرب على تفاعلات JavaScript مع DOM">Practiced JavaScript DOM interactions</span>
                 </div>
                 <div class="achievement-item">
                   <i class="fas fa-check-circle"></i>
-                  <span data-text-en="Learned responsive design fundamentals" data-text-ar="تعلم أساسيات التصميم المتجاوب">Learned responsive design fundamentals</span>
+                  <span data-text-en="Learned responsive design fundamentals"
+                    data-text-ar="تعلم أساسيات التصميم المتجاوب">Learned responsive design fundamentals</span>
                 </div>
               </div>
               <div class="timeline-tags">
@@ -668,167 +710,230 @@
         </div>
 
         <div class="projects-carousel">
-          <button class="projects-arrow projects-arrow-left" id="projectsPrev" type="button" aria-label="Previous projects">
+          <button class="projects-arrow projects-arrow-left" id="projectsPrev" type="button"
+            aria-label="Previous projects">
             <i class="fas fa-chevron-left"></i>
           </button>
 
           <div class="projects-grid" id="projectsGrid">
 
             <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://devsmaj.github.io/smajpihub-demo/" class="project-link" title="View Project" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="https://github.com/devsmaj/smajpihub-demo" class="project-link" title="View Code" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                  </a>
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://devsmaj.github.io/smajpihub-demo/" class="project-link" title="View Project"
+                      target="_blank" rel="noopener noreferrer">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="https://github.com/devsmaj/smajpihub-demo" class="project-link" title="View Code"
+                      target="_blank" rel="noopener noreferrer">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+                <img src="assets/smajpihub.png" alt="SMAJ PI HUB project preview" class="project-preview-image">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title" data-text-en="SMAJ PI HUB" data-text-ar="SMAJ PI HUB">SMAJ PI HUB</h3>
+                <p class="project-description"
+                  data-text-en="SMAJ PI HUB is a centralized digital platform designed to connect Pi-based services, businesses, and users within a structured ecosystem. The platform focuses on creating real utility for Pi Coin by integrating e-commerce, digital services, and community-driven solutions into one scalable and user-friendly environment. It emphasizes responsive design, clean architecture, and seamless user experience."
+                  data-text-ar="SMAJ PI HUB منصة رقمية مركزية مصممة لربط الخدمات والأعمال والمستخدمين المعتمدين على Pi ضمن منظومة منظمة. تركز المنصة على إنشاء فائدة حقيقية لعملة Pi Coin من خلال دمج التجارة الإلكترونية والخدمات الرقمية والحلول المجتمعية في بيئة واحدة قابلة للتوسع وسهلة الاستخدام. كما تركز على التصميم المتجاوب، والبنية النظيفة، وتجربة المستخدم السلسة.">
+                  SMAJ PI HUB is a centralized digital platform designed to connect Pi-based services, businesses, and
+                  users within a structured ecosystem. The platform focuses on creating real utility for Pi Coin by
+                  integrating e-commerce, digital services, and community-driven solutions into one scalable and
+                  user-friendly environment. It emphasizes responsive design, clean architecture, and seamless user
+                  experience.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML5</span>
+                  <span class="tag">CSS3</span>
+                  <span class="tag">JavaScript ES6</span>
+                  <span class="tag">Boxicons</span>
+                  <span class="tag">Pi SDK</span>
                 </div>
               </div>
-              <img src="assets/smajpihub.png" alt="SMAJ PI HUB project preview" class="project-preview-image">
             </div>
-            <div class="project-content">
-              <h3 class="project-title" data-text-en="SMAJ PI HUB" data-text-ar="SMAJ PI HUB">SMAJ PI HUB</h3>
-              <p class="project-description" data-text-en="SMAJ PI HUB is a centralized digital platform designed to connect Pi-based services, businesses, and users within a structured ecosystem. The platform focuses on creating real utility for Pi Coin by integrating e-commerce, digital services, and community-driven solutions into one scalable and user-friendly environment. It emphasizes responsive design, clean architecture, and seamless user experience." data-text-ar="SMAJ PI HUB منصة رقمية مركزية مصممة لربط الخدمات والأعمال والمستخدمين المعتمدين على Pi ضمن منظومة منظمة. تركز المنصة على إنشاء فائدة حقيقية لعملة Pi Coin من خلال دمج التجارة الإلكترونية والخدمات الرقمية والحلول المجتمعية في بيئة واحدة قابلة للتوسع وسهلة الاستخدام. كما تركز على التصميم المتجاوب، والبنية النظيفة، وتجربة المستخدم السلسة.">
-                SMAJ PI HUB is a centralized digital platform designed to connect Pi-based services, businesses, and users within a structured ecosystem. The platform focuses on creating real utility for Pi Coin by integrating e-commerce, digital services, and community-driven solutions into one scalable and user-friendly environment. It emphasizes responsive design, clean architecture, and seamless user experience.
-              </p>
-              <div class="project-tags">
-                <span class="tag">HTML5</span>
-                <span class="tag">CSS3</span>
-                <span class="tag">JavaScript ES6</span>
-                <span class="tag">Boxicons</span>
-                <span class="tag">Pi SDK</span>
-              </div>
-            </div>
-          </div>
 
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://devsmaj.github.io/dsiq/" class="project-link" title="View Project" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="https://github.com/devsmaj/dsiq" class="project-link" title="View Code" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                  </a>
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://devsmaj.github.io/dsiq/" class="project-link" title="View Project" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="https://github.com/devsmaj/dsiq" class="project-link" title="View Code" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+                <img src="assets/dsiq.png" alt="DSIQ project preview" class="project-preview-image">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title" data-text-en="DSIQ – AI Educational Coach"
+                  data-text-ar="DSIQ – AI Educational Coach">DSIQ – AI Educational Coach</h3>
+                <p class="project-description"
+                  data-text-en="DSIQ is an AI-powered educational coaching platform designed to help students, developers, freelancers, and entrepreneurs learn from beginner to professional level. The platform provides an AI teacher experience with personalized guidance, user authentication, chat interaction, and saved user data. DSIQ focuses on making learning more structured, accessible, and intelligent through modern AI technology."
+                  data-text-ar="DSIQ هي منصة تعليمية مدعومة بالذكاء الاصطناعي مصممة لمساعدة الطلاب والمطورين والمستقلين ورواد الأعمال على التعلم من المستوى المبتدئ إلى المستوى الاحترافي. توفر المنصة تجربة معلم ذكي من خلال التوجيه الشخصي، والمحادثة التفاعلية، وإدارة حسابات المستخدمين، وحفظ بيانات التعلم. يركز DSIQ على جعل عملية التعلم أكثر تنظيماً وسهولة وذكاء باستخدام تقنيات الذكاء الاصطناعي الحديثة.">
+                  DSIQ is an AI-powered educational coaching platform designed to help students, developers,
+                  freelancers, and entrepreneurs learn from beginner to professional level. The platform provides an AI
+                  teacher experience with personalized guidance, user authentication, chat interaction, and saved user
+                  data. DSIQ focuses on making learning more structured, accessible, and intelligent through modern AI
+                  technology.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">TypeScript</span>
+                  <span class="tag">React</span>
+                  <span class="tag">Firebase</span>
+                  <span class="tag">Firestore</span>
+                  <span class="tag">Groq AI</span>
+                  <span class="tag">Render</span>
                 </div>
               </div>
-              <img src="assets/dsiq.png" alt="DSIQ project preview" class="project-preview-image">
             </div>
-            <div class="project-content">
-              <h3 class="project-title" data-text-en="DSIQ – AI Educational Coach" data-text-ar="DSIQ – AI Educational Coach">DSIQ – AI Educational Coach</h3>
-              <p class="project-description" data-text-en="DSIQ is an AI-powered educational coaching platform designed to help students, developers, freelancers, and entrepreneurs learn from beginner to professional level. The platform provides an AI teacher experience with personalized guidance, user authentication, chat interaction, and saved user data. DSIQ focuses on making learning more structured, accessible, and intelligent through modern AI technology." data-text-ar="DSIQ هي منصة تعليمية مدعومة بالذكاء الاصطناعي مصممة لمساعدة الطلاب والمطورين والمستقلين ورواد الأعمال على التعلم من المستوى المبتدئ إلى المستوى الاحترافي. توفر المنصة تجربة معلم ذكي من خلال التوجيه الشخصي، والمحادثة التفاعلية، وإدارة حسابات المستخدمين، وحفظ بيانات التعلم. يركز DSIQ على جعل عملية التعلم أكثر تنظيماً وسهولة وذكاء باستخدام تقنيات الذكاء الاصطناعي الحديثة.">
-                DSIQ is an AI-powered educational coaching platform designed to help students, developers, freelancers, and entrepreneurs learn from beginner to professional level. The platform provides an AI teacher experience with personalized guidance, user authentication, chat interaction, and saved user data. DSIQ focuses on making learning more structured, accessible, and intelligent through modern AI technology.
-              </p>
-              <div class="project-tags">
-                <span class="tag">TypeScript</span>
-                <span class="tag">React</span>
-                <span class="tag">Firebase</span>
-                <span class="tag">Firestore</span>
-                <span class="tag">Groq AI</span>
-                <span class="tag">Render</span>
-              </div>
-            </div>
-          </div>
 
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://devsmaj.github.io/food-delivery/" class="project-link" title="View Project" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="https://github.com/devsmaj/food-delivery" class="project-link" title="View Code" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                  </a>
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://devsmaj.github.io/food-delivery/" class="project-link" title="View Project"
+                      target="_blank" rel="noopener noreferrer">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="https://github.com/devsmaj/food-delivery" class="project-link" title="View Code"
+                      target="_blank" rel="noopener noreferrer">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+                <img src="assets/Famina.png" alt="FAMI-NA Express project preview" class="project-preview-image">
+              </div>
+              <div class="project-content">
+                <h3 class="project-title" data-text-en="FAMI-NA Express" data-text-ar="FAMI-NA Express">FAMI-NA Express
+                </h3>
+                <p class="project-description"
+                  data-text-en="FAMI-NA Express is a food delivery platform designed to connect customers with restaurants through a fast, reliable, and user-friendly digital interface. The project focuses on responsive design, intuitive navigation, and seamless ordering experience to ensure efficient service across all devices."
+                  data-text-ar="FAMI-NA Express منصة توصيل طعام مصممة لربط العملاء بالمطاعم من خلال واجهة رقمية سريعة وموثوقة وسهلة الاستخدام. يركز المشروع على التصميم المتجاوب، والتنقل البديهي، وتجربة طلب سلسة لضمان خدمة فعالة عبر جميع الأجهزة.">
+                  FAMI-NA Express is a food delivery platform designed to connect customers with restaurants through a
+                  fast, reliable, and user-friendly digital interface. The project focuses on responsive design,
+                  intuitive navigation, and seamless ordering experience to ensure efficient service across all devices.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Firebase</span>
                 </div>
               </div>
-              <img src="assets/Famina.png" alt="FAMI-NA Express project preview" class="project-preview-image">
             </div>
-            <div class="project-content">
-              <h3 class="project-title" data-text-en="FAMI-NA Express" data-text-ar="FAMI-NA Express">FAMI-NA Express</h3>
-              <p class="project-description" data-text-en="FAMI-NA Express is a food delivery platform designed to connect customers with restaurants through a fast, reliable, and user-friendly digital interface. The project focuses on responsive design, intuitive navigation, and seamless ordering experience to ensure efficient service across all devices." data-text-ar="FAMI-NA Express منصة توصيل طعام مصممة لربط العملاء بالمطاعم من خلال واجهة رقمية سريعة وموثوقة وسهلة الاستخدام. يركز المشروع على التصميم المتجاوب، والتنقل البديهي، وتجربة طلب سلسة لضمان خدمة فعالة عبر جميع الأجهزة.">
-                FAMI-NA Express is a food delivery platform designed to connect customers with restaurants through a fast, reliable, and user-friendly digital interface. The project focuses on responsive design, intuitive navigation, and seamless ordering experience to ensure efficient service across all devices.
-              </p>
-              <div class="project-tags">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Firebase</span>
-              </div>
-            </div>
-          </div>
 
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="https://devsmaj.github.io/smaj-ecosystem-dashboard/" class="project-link" title="View Project" target="_blank" rel="noopener noreferrer">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="https://github.com/devsmaj/smaj-ecosystem-dashboard" class="project-link" title="View Code" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                  </a>
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="https://devsmaj.github.io/smaj-ecosystem-dashboard/" class="project-link"
+                      title="View Project" target="_blank" rel="noopener noreferrer">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="https://github.com/devsmaj/smaj-ecosystem-dashboard" class="project-link" title="View Code"
+                      target="_blank" rel="noopener noreferrer">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-preview-stack">
+                  <img src="assets/dashboard1.png" alt="SMAJ Ecosystem Dashboard overview"
+                    class="project-preview-image">
+                  <img src="assets/dashboard2.png" alt="SMAJ Ecosystem Dashboard analytics"
+                    class="project-preview-image">
                 </div>
               </div>
-              <div class="project-preview-stack">
-                <img src="assets/dashboard1.png" alt="SMAJ Ecosystem Dashboard overview" class="project-preview-image">
-                <img src="assets/dashboard2.png" alt="SMAJ Ecosystem Dashboard analytics" class="project-preview-image">
-              </div>
-            </div>
-            <div class="project-content">
-              <h3 class="project-title" data-text-en="SMAJ Ecosystem Dashboard" data-text-ar="لوحة تحكم SMAJ Ecosystem">SMAJ Ecosystem Dashboard</h3>
-              <p class="project-description" data-text-en="A dynamic AI-powered dashboard for the SMAJ Ecosystem, bringing 13 services into one unified interface for the Pi Network community. It includes service navigation, AI assistant features, KYC-focused flows, financial analytics, responsive design, dark mode, and global-ready localization." data-text-ar="لوحة تحكم ديناميكية مدعومة بالذكاء الاصطناعي لمنظومة SMAJ، تجمع 13 خدمة في واجهة موحدة لمجتمع Pi Network. تتضمن تنقل الخدمات، ومزايا مساعد الذكاء الاصطناعي، وتدفقات KYC، وتحليلات مالية، وتصميما متجاوبا، ووضعا داكنا، ودعما عالميا للغات والعملات.">
-                A dynamic AI-powered dashboard for the SMAJ Ecosystem, bringing 13 services into one unified interface for the Pi Network community. It includes service navigation, AI assistant features, KYC-focused flows, financial analytics, responsive design, dark mode, and global-ready localization.
-              </p>
-              <div class="project-tags">
-                <span class="tag">JavaScript</span>
-                <span class="tag">Tailwind CSS</span>
-                <span class="tag">Gemini AI</span>
-                <span class="tag">Chart.js</span>
-                <span class="tag">Boxicons</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="project-card">
-            <div class="project-image">
-              <div class="project-overlay">
-                <div class="project-links">
-                  <a href="#home" class="project-link" title="View Project">
-                    <i class="fas fa-external-link-alt"></i>
-                  </a>
-                  <a href="https://github.com/devsmaj/devsmaj" class="project-link" title="View Code" target="_blank" rel="noopener noreferrer">
-                    <i class="fab fa-github"></i>
-                  </a>
+              <div class="project-content">
+                <h3 class="project-title" data-text-en="SMAJ Ecosystem Dashboard"
+                  data-text-ar="لوحة تحكم SMAJ Ecosystem">SMAJ Ecosystem Dashboard</h3>
+                <p class="project-description"
+                  data-text-en="A dynamic AI-powered dashboard for the SMAJ Ecosystem, bringing 13 services into one unified interface for the Pi Network community. It includes service navigation, AI assistant features, KYC-focused flows, financial analytics, responsive design, dark mode, and global-ready localization."
+                  data-text-ar="لوحة تحكم ديناميكية مدعومة بالذكاء الاصطناعي لمنظومة SMAJ، تجمع 13 خدمة في واجهة موحدة لمجتمع Pi Network. تتضمن تنقل الخدمات، ومزايا مساعد الذكاء الاصطناعي، وتدفقات KYC، وتحليلات مالية، وتصميما متجاوبا، ووضعا داكنا، ودعما عالميا للغات والعملات.">
+                  A dynamic AI-powered dashboard for the SMAJ Ecosystem, bringing 13 services into one unified interface
+                  for the Pi Network community. It includes service navigation, AI assistant features, KYC-focused
+                  flows, financial analytics, responsive design, dark mode, and global-ready localization.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Tailwind CSS</span>
+                  <span class="tag">Gemini AI</span>
+                  <span class="tag">Chart.js</span>
+                  <span class="tag">Boxicons</span>
                 </div>
               </div>
-              <div class="project-placeholder">
-                <i class="fas fa-user-code"></i>
+            </div>
+
+            <div class="project-card">
+              <div class="project-image">
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a href="#home" class="project-link" title="View Project">
+                      <i class="fas fa-external-link-alt"></i>
+                    </a>
+                    <a href="https://github.com/devsmaj/devsmaj" class="project-link" title="View Code" target="_blank"
+                      rel="noopener noreferrer">
+                      <i class="fab fa-github"></i>
+                    </a>
+                  </div>
+                </div>
+                <div class="project-placeholder">
+                  <i class="fas fa-user-code"></i>
+                </div>
+              </div>
+              <div class="project-content">
+                <h3 class="project-title" data-text-en="Dev Smaj Portfolio" data-text-ar="بورتفوليو Dev Smaj">Dev Smaj
+                  Portfolio</h3>
+                <p class="project-description"
+                  data-text-en="A responsive personal portfolio website built to present skills, experience, projects, and contact information with bilingual support, theme switching, smooth animations, and a clean developer-focused interface."
+                  data-text-ar="موقع بورتفوليو شخصي متجاوب لعرض المهارات والخبرة والمشاريع ومعلومات التواصل، مع دعم لغتين، وتبديل الثيم، وحركات سلسة، وواجهة نظيفة موجهة للمطورين.">
+                  A responsive personal portfolio website built to present skills, experience, projects, and contact
+                  information with bilingual support, theme switching, smooth animations, and a clean developer-focused
+                  interface.
+                </p>
+                <div class="project-tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">JavaScript</span>
+                  <span class="tag">Responsive UI</span>
+                </div>
               </div>
             </div>
-            <div class="project-content">
-              <h3 class="project-title" data-text-en="Dev Smaj Portfolio" data-text-ar="بورتفوليو Dev Smaj">Dev Smaj Portfolio</h3>
-              <p class="project-description" data-text-en="A responsive personal portfolio website built to present skills, experience, projects, and contact information with bilingual support, theme switching, smooth animations, and a clean developer-focused interface." data-text-ar="موقع بورتفوليو شخصي متجاوب لعرض المهارات والخبرة والمشاريع ومعلومات التواصل، مع دعم لغتين، وتبديل الثيم، وحركات سلسة، وواجهة نظيفة موجهة للمطورين.">
-                A responsive personal portfolio website built to present skills, experience, projects, and contact information with bilingual support, theme switching, smooth animations, and a clean developer-focused interface.
-              </p>
-              <div class="project-tags">
-                <span class="tag">HTML</span>
-                <span class="tag">CSS</span>
-                <span class="tag">JavaScript</span>
-                <span class="tag">Responsive UI</span>
-              </div>
-            </div>
-          </div>
 
           </div>
 
-          <button class="projects-arrow projects-arrow-right" id="projectsNext" type="button" aria-label="Next projects">
+          <button class="projects-arrow projects-arrow-right" id="projectsNext" type="button"
+            aria-label="Next projects">
             <i class="fas fa-chevron-right"></i>
           </button>
         </div>
+      </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+      <span class="section-number">06</span>
+      <h2>Certificates & Awards</h2>
+
+      <div class="certificate-card">
+        <h3>CS50x Certificate</h3>
+        <p>
+          Successfully completed Harvard University's CS50x: Introduction to Computer Science.
+        </p>
+
+        <div class="certificate-tags">
+          <span>Harvard CS50x</span>
+          <span>Computer Science</span>
+          <span>2026</span>
+        </div>
+
+        <a href="https://cs50.harvard.edu/certificates/79028a0e-9abf-44ca-86ac-d804e94bae16" target="_blank" class="certificate-btn">
+          View Certificate
+        </a>
       </div>
     </section>
 
@@ -836,7 +941,7 @@
     <section id="contact" class="section contact-section">
       <div class="section-container">
         <div class="section-header">
-          <span class="section-number">05</span>
+          <span class="section-number">06</span>
           <h2 class="section-title">
             <span class="title-bracket">&lt;</span>
             <span class="title-text" data-text-en="Contact" data-text-ar="التواصل">Contact</span>
@@ -863,23 +968,28 @@
               </div>
               <div class="contact-details">
                 <h4 class="contact-label" data-text-en="Location" data-text-ar="الموقع">Location</h4>
-                <span class="contact-value" data-text-en="Abu Dhabi, UAE" data-text-ar="أبوظبي، الإمارات العربية المتحدة">Maiduguri, Nigeria.</span>
+                <span class="contact-value" data-text-en="Abu Dhabi, UAE"
+                  data-text-ar="أبوظبي، الإمارات العربية المتحدة">Maiduguri, Nigeria.</span>
               </div>
             </div>
           </div>
 
           <form class="contact-form" id="contactForm">
             <div class="form-group">
-              <input type="text" class="form-input" name="name" placeholder="Name" data-placeholder-en="Name" data-placeholder-ar="الاسم" required>
+              <input type="text" class="form-input" name="name" placeholder="Name" data-placeholder-en="Name"
+                data-placeholder-ar="الاسم" required>
             </div>
             <div class="form-group">
-              <input type="email" class="form-input" name="email" placeholder="Email" data-placeholder-en="Email" data-placeholder-ar="البريد الإلكتروني" required>
+              <input type="email" class="form-input" name="email" placeholder="Email" data-placeholder-en="Email"
+                data-placeholder-ar="البريد الإلكتروني" required>
             </div>
             <div class="form-group">
-              <input type="text" class="form-input" name="subject" placeholder="Subject" data-placeholder-en="Subject" data-placeholder-ar="الموضوع" required>
+              <input type="text" class="form-input" name="subject" placeholder="Subject" data-placeholder-en="Subject"
+                data-placeholder-ar="الموضوع" required>
             </div>
             <div class="form-group">
-              <textarea class="form-input form-textarea" name="message" rows="5" placeholder="Message" data-placeholder-en="Message" data-placeholder-ar="الرسالة" required></textarea>
+              <textarea class="form-input form-textarea" name="message" rows="5" placeholder="Message"
+                data-placeholder-en="Message" data-placeholder-ar="الرسالة" required></textarea>
             </div>
             <button type="submit" class="btn btn-primary btn-submit">
               <span data-text-en="Send Message" data-text-ar="إرسال الرسالة">Send Message</span>
@@ -910,16 +1020,20 @@
           </p>
         </div>
         <div class="footer-social">
-          <a href="https://github.com/devsmaj" class="footer-social-link" title="GitHub" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/devsmaj" class="footer-social-link" title="GitHub" target="_blank"
+            rel="noopener noreferrer">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://www.reddit.com/user/devsmaj" class="footer-social-link" title="Reddit" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.reddit.com/user/devsmaj" class="footer-social-link" title="Reddit" target="_blank"
+            rel="noopener noreferrer">
             <i class="fab fa-reddit-alien"></i>
           </a>
-          <a href="https://discord.com/users/devsmaj" class="footer-social-link" title="Discord" target="_blank" rel="noopener noreferrer">
+          <a href="https://discord.com/users/devsmaj" class="footer-social-link" title="Discord" target="_blank"
+            rel="noopener noreferrer">
             <i class="fab fa-discord"></i>
           </a>
-          <a href="https://t.me/devsmaj" class="footer-social-link" title="Telegram" target="_blank" rel="noopener noreferrer">
+          <a href="https://t.me/devsmaj" class="footer-social-link" title="Telegram" target="_blank"
+            rel="noopener noreferrer">
             <i class="fab fa-telegram"></i>
           </a>
           <a href="mailto:officialsmaj@gmail.com" class="footer-social-link" title="Email">
